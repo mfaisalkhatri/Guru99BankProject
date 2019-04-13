@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.guru99.bankproject.websitetests.LoginTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.203 s <<< FAILURE! - in com.guru99.bankproject.websitetests.LoginTests
-loginValidationTests(com.guru99.bankproject.websitetests.LoginTests)  Time elapsed: 0.031 s  <<< FAILURE!
-java.lang.NullPointerException
-	at com.guru99.bankproject.websitetests.LoginTests.loginValidationTests(LoginTests.java:22)
-
