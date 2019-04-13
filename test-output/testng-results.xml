@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39933" started-at="2019-04-13T13:40:21Z" finished-at="2019-04-13T13:41:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="39933" started-at="2019-04-13T13:40:21Z" finished-at="2019-04-13T13:41:01Z">
+      <class name="com.guru99.bankproject.websitetests.Guru99Tests">
+        <test-method status="PASS" signature="mainSetup()[pri:0, instance:com.guru99.bankproject.websitetests.Guru99Tests@14acaea5]" name="mainSetup" is-config="true" duration-ms="12408" started-at="2019-04-13T13:40:21Z" finished-at="2019-04-13T13:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainSetup -->
+        <test-method status="PASS" signature="loginValidationTests(java.lang.String, java.lang.String, boolean)[pri:1, instance:com.guru99.bankproject.websitetests.Guru99Tests@14acaea5]" name="loginValidationTests" duration-ms="8916" started-at="2019-04-13T13:40:34Z" data-provider="logintestdata" finished-at="2019-04-13T13:40:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr187211]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tenAruh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidationTests -->
+        <test-method status="PASS" signature="addnewCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.guru99.bankproject.websitetests.Guru99Tests@14acaea5]" name="addnewCustomerTest" duration-ms="9589" started-at="2019-04-13T13:40:43Z" data-provider="addnewcustomer" depends-on-methods="com.guru99.bankproject.websitetests.Guru99Tests.loginValidationTests" finished-at="2019-04-13T13:40:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John DOE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[09]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FEB]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1988]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15 new villa street near Avenue park]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Maharashtra]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[400099]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[9820098201]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[test1668@gmail.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[pass1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewCustomerTest -->
+        <test-method status="PASS" signature="addNewAccount(java.lang.String, java.lang.String)[pri:3, instance:com.guru99.bankproject.websitetests.Guru99Tests@14acaea5]" name="addNewAccount" duration-ms="8038" started-at="2019-04-13T13:40:52Z" data-provider="addNewAccount" depends-on-methods="com.guru99.bankproject.websitetests.Guru99Tests.addnewCustomerTest" finished-at="2019-04-13T13:41:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Savings]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru99.bankproject.websitetests.Guru99Tests@14acaea5]" name="tearDown" is-config="true" duration-ms="898" started-at="2019-04-13T13:41:00Z" finished-at="2019-04-13T13:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru99.bankproject.websitetests.Guru99Tests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
