@@ -114,7 +114,7 @@ public class NewCustomerPageActions {
 	 * @param customerName
 	 * @param gender
 	 * @param dd
-	 * @param mmm
+	 * @param mm
 	 * @param year
 	 * @param address
 	 * @param city
@@ -124,12 +124,12 @@ public class NewCustomerPageActions {
 	 * @param emailId
 	 * @param password
 	 */
-	public void addNewCustomer(String customerName, String gender, String dd, String mmm, String year, String address,
+	public void addNewCustomer(String customerName, String gender, String dd, String mm, String year, String address,
 			String city, String state, String pinNo, String mobNo, String emailId, String password) {
 		clickNewCustomerMenu();
 		addCustomerName(customerName);
 		selectGender(gender);
-		selectDob(dd, mmm, year);
+		selectDob(dd, mm, year);
 		enterAddress(address);
 		enterCity(city);
 		enterState(state);

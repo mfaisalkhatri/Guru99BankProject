@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<test name="Test">
+		<parameter name="browser" value="remotechrome"/>
 		<classes>
 			<class name="com.guru99.bankproject.websitetests.Guru99Tests" />
 		</classes>

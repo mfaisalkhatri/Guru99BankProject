@@ -54,8 +54,8 @@ public class Guru99Tests extends Setup {
 	@DataProvider(name = "addnewcustomer")
 	public Iterator<Object[]> customerData() {
 		List<Object[]> customerData = new ArrayList<>();
-		customerData.add(new Object[] { "John DOE", "male", "09", "FEB", "1988", "15 new villa street near Avenue park",
-				"Mumbai", "Maharashtra", "400099", "9820098201", "test1668@gmail.com", "pass1234" });
+		customerData.add(new Object[] { "Johnny DOE", "male", "09", "02", "1988", "15 new villa street near Avenue park",
+				"Mumbai", "Maharashtra", "400099", "9820098201", "test1670@gmail.com", "pass1234" });
 		return customerData.iterator();
 	}
 
